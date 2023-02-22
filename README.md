@@ -1,4 +1,4 @@
 ## TP-YOLO
-<img src="https://github.com/Ericdiii/TP-YOLO/blob/main/figure/TP-YOLO.png?raw=true" height="210"/>
+<img src="https://github.com/Ericdiii/TP-YOLO/blob/main/figure/TP-YOLO.png?raw=true" height="180"/>
 
-Code coming soon.
+Code and weights are coming soon.
