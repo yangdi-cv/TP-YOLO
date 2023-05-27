@@ -1,6 +1,6 @@
 ## TP-YOLO: A Lightweight Attention-based Architecture for Tiny Pest Detection 
 
-Dataset: [Google Drive](https://drive.google.com/drive/folders/1d5AAjAsaas2aZZ5UGqI30eBaoaMEmU02?usp=drive_link)
+Submitted to ICIP2023 and under reviewing.
 
 ## Dependencies
 ```sh
@@ -15,9 +15,15 @@ yolo task=detect mode=predict model=weights/tp_yolo.pt source=input/images save=
 
 
 ## Training
+
 ```sh
 yolo task=detect mode=train model=cfg/tp_yolo.yaml data=datasets/pestdata.yaml epochs=450 batch=4
 ```
+| Dataset       | Paper | Class # | Image # | Instance # | Download |  
+|:-------------:| ----- |:-------:|:-------:|:----------:| ---------|
+| Khapra beetle | [ICIP2023]() | 3 | 1,600 | 4,885 | [Google Drive](https://drive.google.com/drive/folders/1d5AAjAsaas2aZZ5UGqI30eBaoaMEmU02?usp=drive_link) | 
+| Pest24        | [CEA2020](https://www.sciencedirect.com/science/article/abs/pii/S0168169919324123)| 24 | 25,378 | 192,422 | [Google Drive]() | 
+ 
 
 ## Evaluation
 ```sh
