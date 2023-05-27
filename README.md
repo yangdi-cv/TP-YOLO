@@ -1,6 +1,32 @@
-## TP-YOLO
-<img src="https://github.com/Ericdiii/TP-YOLO/blob/main/figure/TP-YOLO.png?raw=true" height="180"/>
+## TP-YOLO: A Lightweight Attention-based Architecture for Tiny Pest Detection 
 
 Dataset: [Google Drive](https://drive.google.com/drive/folders/1d5AAjAsaas2aZZ5UGqI30eBaoaMEmU02?usp=drive_link)
 
-Code and weights are coming soon.
+## Dependencies
+```sh
+pip install .
+```
+
+## Inference
+```sh
+yolo task=detect mode=predict model=weights/tp_yolo.pt source=input/images save=True
+```
+<img src="https://github.com/Ericdiii/TP-YOLO/blob/main/figure/demo.png?raw=true" height="390"/>
+
+
+## Training
+```sh
+yolo task=detect mode=train model=cfg/tp_yolo.yaml data=datasets/pestdata.yaml epochs=450 batch=4
+```
+
+## Evaluation
+```sh
+yolo task=detect mode=val model=weights/tp_yolo.pt data=datasets/pestdata_val.yaml
+```
+
+| Class                  | P    | R    | AP<sub>50 | AP   | 
+| ----------------------:|:----:|:----:|:---------:|:----:|
+| Khapra beetle (larvae) | 98.2 | 90.4 | 98.2      | 73.4 | 
+| Khapra beetle (adult)  | 99.4 | 99.5 | 99.5      | 85.0 |
+| Khapra beetle (skin)   | 99.0 | 97.2 | 99.2      | 75.7 |
+| All                    | 98.8 | 95.7 | 98.9      | 78.0 |
