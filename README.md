@@ -1,4 +1,4 @@
-## TP-YOLO: A Lightweight Attention-based Architecture for Tiny Pest Detection 
+# TP-YOLO: A Lightweight Attention-based Architecture for Tiny Pest Detection 
 
 Submitted to ICIP2023 and under reviewing.
 
