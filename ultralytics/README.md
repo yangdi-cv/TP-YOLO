@@ -131,3 +131,4 @@ See [Pose Docs](https://docs.ultralytics.com/tasks/pose) for usage examples with
   <br>Reproduce by `yolo val pose data=coco8-pose.yaml batch=1 device=0|cpu`
 
 </details>
+
