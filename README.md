@@ -9,7 +9,7 @@ pip install .
 
 ## Inference
 ```sh
-yolo task=detect mode=predict model=weights/tp_yolo.pt source=input/images save=True
+yolo task=detect mode=predict model=weights/tp-yolo_kb.pt source=input/images save=True
 ```
 <img src="https://github.com/Ericdiii/TP-YOLO/blob/main/figure/demo.png?raw=true" height="390"/>
 
@@ -17,7 +17,7 @@ yolo task=detect mode=predict model=weights/tp_yolo.pt source=input/images save=
 ## Training
 
 ```sh
-yolo task=detect mode=train model=cfg/tp_yolo.yaml data=datasets/pestdata.yaml epochs=450 batch=4
+yolo task=detect mode=train model=cfg/tp-yolo.yaml data=datasets/pestdata.yaml epochs=450 batch=4
 ```
 | Dataset       | Paper | Class # | Image # | Instance # | Download |  
 |:-------------:| ----- |:-------:|:-------:|:----------:| ---------|
@@ -27,7 +27,7 @@ yolo task=detect mode=train model=cfg/tp_yolo.yaml data=datasets/pestdata.yaml e
 
 ## Evaluation
 ```sh
-yolo task=detect mode=val model=weights/tp_yolo.pt data=datasets/pestdata_val.yaml
+yolo task=detect mode=val model=weights/tp-yolo_kb.pt data=datasets/pestdata_val.yaml
 ```
 
 | Class                  | P    | R    | AP<sub>50 | AP   | 
