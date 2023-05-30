@@ -22,7 +22,7 @@ yolo task=detect mode=train model=cfg/tp_yolo.yaml data=datasets/pestdata.yaml e
 | Dataset       | Paper | Class # | Image # | Instance # | Download |  
 |:-------------:| ----- |:-------:|:-------:|:----------:| ---------|
 | Khapra beetle | [ICIP2023]() | 3 | 1,600 | 4,885 | [Google Drive](https://drive.google.com/drive/folders/1d5AAjAsaas2aZZ5UGqI30eBaoaMEmU02?usp=drive_link) | 
-| Pest24        | [CEA2020](https://www.sciencedirect.com/science/article/abs/pii/S0168169919324123)| 24 | 25,378 | 192,422 | [Google Drive]() | 
+| Pest24        | [CEA2020](https://www.sciencedirect.com/science/article/abs/pii/S0168169919324123)| 24 | 25,378 | 192,422 | [Google Drive](https://drive.google.com/drive/folders/18_YlUiLW15HndTIUs9BoKWd4C8bdRS_E?usp=drive_link) | 
  
 
 ## Evaluation
