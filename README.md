@@ -1,6 +1,6 @@
 # TP-YOLO: A Lightweight Attention-based Architecture for Tiny Pest Detection 
 
-Submitted to ICIP2023 and under reviewing.
+Automatic detection of agricultural pests is a challenging problem that is of great interest in biosecurity and precision agriculture. Such a detection model must cope well with dense distribution of small-sized pests in complex backgrounds. This paper proposes a lightweight attention-based network, called TP-YOLO, for tiny pest detection. We introduce two attention-based modules: Contextual Transformer module and Omni-Dimensional Dynamic Convolution module, which enhance the capability of feature extraction. The proposed modules are integrated into YOLOv8 backbone, a state-of-the-art baseline for object detection. This paper also introduces a new benchmark dataset consisting of 1,600 images of Khapra beetles for objective evaluation in pest detection research. Extensive experiments on two datasets indicate that TP-YOLO achieves competitive detection accuracy while having a significantly smaller model size and fast prediction time.
 
 ## Dependencies
 ```sh
