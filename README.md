@@ -1,7 +1,7 @@
 # TP-YOLO: A Lightweight Attention-based Architecture for Tiny Pest Detection 
 By Y. Di, S. L. Phung, J. Berg, J. Clissold and A. Bouzerdoum.
 
-<img src="https://github.com/Ericdiii/TP-YOLO/blob/main/figure/TP-YOLO.png?raw=true" height="186"/>
+<img src="https://github.com/Ericdiii/TP-YOLO/blob/main/figure/TP-YOLO_framework.png?raw=true" height="180"/>
 
 This repository is an official PyTorch implementation of [TP-YOLO](), published by ICIP 2023.
 
