@@ -19,14 +19,25 @@ yolo task=detect mode=predict model=weights/tp-yolo_kb.pt source=input/images sa
 
 ## Training
 
-```sh
-yolo task=detect mode=train model=cfg/tp-yolo.yaml data=datasets/pestdata.yaml epochs=450 batch=4
-```
+Hyperparameters:
+- Epochs: 450
+- Batch size: 4
+- Pre-train: None
+</br>
+
+Dataset:
 | Dataset       | Paper | Class # | Image # | Instance # | Download |  
 |:-------------:| ----- |:-------:|:-------:|:----------:| ---------|
 | Khapra beetle | [ICIP2023]() | 3 | 1,600 | 4,885 | [Google Drive](https://drive.google.com/drive/folders/1d5AAjAsaas2aZZ5UGqI30eBaoaMEmU02?usp=drive_link) | 
 | Pest24        | [CEA2020](https://www.sciencedirect.com/science/article/abs/pii/S0168169919324123)| 24 | 25,378 | 192,422 | [Google Drive](https://drive.google.com/drive/folders/18_YlUiLW15HndTIUs9BoKWd4C8bdRS_E?usp=drive_link) | 
- 
+</br>
+
+Command:
+```sh
+yolo task=detect mode=train model=cfg/tp-yolo.yaml data=datasets/pestdata.yaml epochs=450 batch=4
+```
+</br>
+
  <img src="https://github.com/Ericdiii/TP-YOLO/blob/main/figure/curve.png?raw=true" height="440"/>
 
 ## Evaluation
