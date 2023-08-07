@@ -556,7 +556,7 @@ def parse_model(d, ch, verbose=True):  # model_dict, input_channels(3)
         elif m in [ODConv]:
             c1, c2 = ch[f], args[0]
             if c2 != nc:  # if not output
-                c2 = make_divisible(c2 * gw, 8)
+                c2 = make_divisible(c2 * width, 8)
             args = [c1, c2, *args[1:]]
 
         elif m is nn.BatchNorm2d:
