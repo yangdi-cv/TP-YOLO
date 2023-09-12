@@ -3,7 +3,7 @@ By Y. Di, S. L. Phung, J. Berg, J. Clissold and A. Bouzerdoum.
 
 <img src="https://github.com/Ericdiii/TP-YOLO/blob/main/figure/TP-YOLO_framework.png?raw=true" height="180"/>
 
-This repository is an official PyTorch implementation of [TP-YOLO](), published by ICIP 2023.
+This repository is an official PyTorch implementation of [TP-YOLO](https://ieeexplore.ieee.org/document/10222202), published by ICIP 2023.
 
 ## Dependencies
 ```sh
@@ -61,7 +61,7 @@ The project is build upon [ultralytics](https://github.com/ultralytics/ultralyti
     title={TP-YOLO: A Lightweight Attention-based Architecture for Tiny Pest Detection},
     author={Yang Di and Son Lam Phung and Julian van den Berg and Jason Clissold and Abdesselam Bouzerdoum},
     booktitle={IEEE International Conference on Image Processing (ICIP)},
-    pages={1-5},
+    pages={3394-3398},
     year={2023}
 }
 ```
