@@ -52,12 +52,10 @@ yolo task=detect mode=val model=weights/tp-yolo_kb.pt data=datasets/pestdata_val
 | Khapra beetle (skin)   | 99.0 | 97.2 | 99.2      | 75.7 |
 | All                    | 98.8 | 95.7 | 98.9      | 78.0 |
 
-## Acknowledgment
-The project is build upon [ultralytics](https://github.com/ultralytics/ultralytics) framework. We apprecate the contribution.
 
 ## Citations
 ```
-@inproceedings{tpyolo
+@inproceedings{tpyolo,
     title={TP-YOLO: A Lightweight Attention-based Architecture for Tiny Pest Detection},
     author={Yang Di and Son Lam Phung and Julian van den Berg and Jason Clissold and Abdesselam Bouzerdoum},
     booktitle={IEEE International Conference on Image Processing (ICIP)},
